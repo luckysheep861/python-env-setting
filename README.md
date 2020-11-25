@@ -6,18 +6,18 @@
 cat /proc/driver/nvidia/version
 ```
 
-![avatar](pictures/2020-11-24 at 6.16 PM.png)
+![avatar](https://github.com/luckysheep861/python-env-setting/blob/main/pictures/2020-11-24%20at%206.16%20PM.png)
 
 根据显卡驱动选择想安装的cuda版本
 
-![b7cb5a8add8257a063987469affa90ee](pictures/BFE3F2B9-0A9A-4924-BF57-E35B9BD21F96.png)
+![b7cb5a8add8257a063987469affa90ee](https://github.com/luckysheep861/python-env-setting/blob/main/pictures/BFE3F2B9-0A9A-4924-BF57-E35B9BD21F96.png)
 
 #### 下载CUDA Toolkit
 [下载地址](https://developer.nvidia.com/cuda-toolkit-archive)
 - hostnamectl 查看Architecture, Distribution, Version
-![228856ac472295acbf19fa5e053422ee](pictures/2020-11-24 at 6.26 PM.png)
+![228856ac472295acbf19fa5e053422ee](https://github.com/luckysheep861/python-env-setting/blob/main/pictures/2020-11-24%20at%206.26%20PM.png)
 - Installer Type选择runfile(local)
-![fbde1b8eaffc369f8fee6d590da71140](pictures/2020-11-24 at 6.19 PM.png)
+![fbde1b8eaffc369f8fee6d590da71140](https://github.com/luckysheep861/python-env-setting/blob/main/pictures/2020-11-24%20at%206.19%20PM.png)
 
 #### 安装
 ```bash
@@ -58,12 +58,12 @@ chmod a+r /home/hxtang/.local/env/cuda-9.2/include/cudnn.h /home/hxtang/.local/e
 ```bash
 /home/hxtang/.local/env/cuda-9.2/bin/nvcc
 ```
-![f3044701ac464c68ce43a927b8617db1](pictures/2020-11-25 at 9.29 AM.png)
+![f3044701ac464c68ce43a927b8617db1](https://github.com/luckysheep861/python-env-setting/blob/main/pictures/2020-11-25%20at%209.29%20AM.png)
 
 ## 安装python
 在python官网下载需要的python source code [下载地址](https://www.python.org/downloads/)
 CentOS可用 xz compressed source tarball, 其余使用Gzipped source tarball
-![1a471164f76387a7b424adbfd9545c29](pictures/2020-11-24 at 6.33 PM.png)
+![1a471164f76387a7b424adbfd9545c29](https://github.com/luckysheep861/python-env-setting/blob/main/pictures/2020-11-24%20at%206.33%20PM.png)
 解压并安装，注意prefix指定需要安装到的目录地址
 
 ```bash
@@ -86,7 +86,7 @@ wget cu92/torch-1.5.0%2Bcu92-cp36-cp36m-linux_x86_64.whl
 ```
 /home/hxtang/.local/env/bin/python3
 ```
-![ce991ec80b79731ace5762293acd4028](pictures/2020-11-25 at 9.30 AM.png)
+![ce991ec80b79731ace5762293acd4028](https://github.com/luckysheep861/python-env-setting/blob/main/pictures/2020-11-25%20at%209.30%20AM.png)
 
 
 ## 配置环境变量
