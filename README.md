@@ -14,9 +14,12 @@ cat /proc/driver/nvidia/version
 
 #### 下载CUDA Toolkit
 [下载地址](https://developer.nvidia.com/cuda-toolkit-archive)
-- hostnamectl 查看Architecture, Distribution, Version
+hostnamectl 查看Architecture, Distribution, Version
+
 ![228856ac472295acbf19fa5e053422ee](https://github.com/luckysheep861/python-env-setting/blob/main/pictures/2020-11-24%20at%206.26%20PM.png)
-- Installer Type选择runfile(local)
+
+Installer Type选择runfile(local)
+
 ![fbde1b8eaffc369f8fee6d590da71140](https://github.com/luckysheep861/python-env-setting/blob/main/pictures/2020-11-24%20at%206.19%20PM.png)
 
 #### 安装
